@@ -9,7 +9,7 @@ def decode_morse(message)
   result = ''
 
    # Loop through the words and decode them one by one
-   words.each do |word|
+  words.each do |word|
     # Split word into letters
     letters = word.split(' ')
 
@@ -19,13 +19,13 @@ def decode_morse(message)
       result += decoded_message.convert
     end
 
-    # Append a space to the result string to separate the words
+      # Append a space to the result string to separate the words
     result += ' '
   end
 
-    # Return the result string
+  # Return the result string
   puts result
 end
 
 # You can then call the method to decode a Morse code message
-decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
