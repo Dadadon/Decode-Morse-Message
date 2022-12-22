@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    morse_code (0.1.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  morse_code
+
+BUNDLED WITH
+   2.3.26
