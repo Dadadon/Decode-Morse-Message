@@ -11,7 +11,7 @@ def decode_morse(message)
   # Loop through the words and decode them one by one
   words.each do |word|
     # Split word into letters
-    letters = word.split('')
+    letters = word.split
 
     # Decode letters one by one and append them to the result string
     letters.each do |letter|
@@ -28,4 +28,4 @@ def decode_morse(message)
 end
 
 # You can then call the method to decode a Morse code message
-# decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+#decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
