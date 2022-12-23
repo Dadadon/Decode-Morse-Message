@@ -26,6 +26,3 @@ def decode_morse(message)
   # Return the result string
   puts result
 end
-
-# You can then call the method to decode a Morse code message
-# decode_morse(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
